@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>table-eq-width</title>
+  <link rel="stylesheet" href="../../dist/table-eq-width.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container .col{}
+    .container .col:nth-child(1){
+      background: pink;
+    }
+    .container .col:nth-child(2){
+      background: cyan;
+    }
+    .container .col:nth-child(3){
+      background: green;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container table-eq-width">
+    <div class="col">col1</div>
+    <div class="col">col2</div>
+    <div class="col">col3</div>
+  </div>
+</body>
+</html>
