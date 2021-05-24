@@ -1,4 +1,8 @@
 /*wsui-table-eq-width Start*/
+.wsui-table-eq-width {
+  border-collapse: collapse;
+}
+
 .wsui-table-eq-width > * {
   display: table-cell;
   width: 1%;
