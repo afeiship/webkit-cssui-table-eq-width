@@ -1,0 +1,10 @@
+/*wsui-table-eq-width Start*/
+.wsui-table-eq-width > * {
+  display: table-cell;
+  width: 1%;
+}
+
+/*wsui-table-eq-width End*/
+.test-wsui-table-eq-width {
+  border: 1px solid red;
+}
